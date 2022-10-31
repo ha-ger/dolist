@@ -1,0 +1,501 @@
+.container {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    margin-top     : 50px;
+}
+
+body {height: 100vh;
+    background-color: #8628bd;
+  
+background-size: cover;
+background-position: center;
+    /* background   : linear-gradient(-86deg, purple, #2828bb,#a919a9,blue) */
+}
+
+.emo {
+    font-size : 30px;
+    color     : rgb(232, 41, 226);
+    margin-top: 30px;
+}
+
+span {
+    margin-top   : 2px;
+    margin-bottom: 26px;
+    font-size    : large;
+    color        : white;
+    text-align   : center;
+}
+
+h3 {
+    margin-top    : -20px;
+    color         : white;
+    text-transform: capitalize;
+    font-size     : 30px;
+}
+
+.form {
+    background-color: #43064a;
+    height          : 80px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    width           : fit-content;
+    padding         : 5px 20px;
+}
+
+input {
+    padding              : 0px 10px 0px 10px;
+    height               : 40px;
+    width                : 350px;
+    outline              : none;
+    font-size            : 20px;
+    border-radius        : 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius   : 9px;
+    -ms-border-radius    : 9px;
+    -o-border-radius     : 9px;
+    outline              : none;
+    border               : none;
+}
+
+.add,
+.delete,
+.done {
+    margin-left     : 10px;
+    width           : fit-content;
+    background-color: #8628bd91;
+    font-size       : 20px;
+    color           : white;
+    outline         : none;
+    cursor          : pointer;
+}
+
+
+img {
+    color: red;
+
+}
+
+.colo {
+    text-decoration: line-through;
+    color          : brown;
+}
+
+@media(min-width:768px) {
+    .container {
+        width: 751px;
+    }
+}
+
+@media(min-width:847px) {
+    .container {
+        width: 800px;
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        width: 970px;
+    }
+
+    .form {
+        margin-left: 20px;
+    }
+}
+
+@media(min-width:1111px) {
+    .container {
+        width: 1026px;
+    }
+
+}
+
+@media(min-width:1200px) {
+
+    .container {
+        width: 1170px;
+    }
+
+    .form {
+        margin-left: 73px;
+    }
+
+}
+
+
+@media(min-width:1280px) {
+
+    .container {
+        width: 1224px;
+    }
+
+
+    @media(min-width:1340px) {
+
+        .container {
+            width: 1282px;
+        }
+
+    }
+
+
+    @media(min-width:1400px) {
+
+        .container {
+            width: 1382px;
+        }
+
+        span {
+            margin-left: 441px;
+
+
+        }
+
+
+        .form {
+            margin-left: 460px;
+        }
+
+
+        h3 {
+
+            margin-left: 390px;
+
+        }
+
+
+    }
+
+
+
+}
+
+@media(max-width:1024px) {
+
+    input {
+        width: 497px;
+
+    }
+
+}
+
+@media(max-width:650px) {
+    input {
+        width: 339px;
+    }
+
+    .add,
+    .delete,
+    .done {
+        font-size: 15px;
+
+    }
+}
+
+
+@media(max-width:721px) {
+    input {
+        width: 400px;
+    }
+
+}
+
+
+@media(max-width:576px) {
+    input {
+        width: 314px;
+    }
+
+}
+
+@media(max-width:549px) {
+    .container {
+        width: 460px;
+    }
+
+    .form {
+
+        margin-left: 71px;
+        width      : 360px;
+
+
+    }
+}
+
+@media(max-width:540px) {
+
+    .form {
+        width      : 430px;
+        margin-left: 52px
+    }
+}
+
+@media(max-width:534px) {
+    .container {
+        width: 420px;
+    }
+
+    .form {
+
+        margin-left: 71px;
+        width      : 360px;
+
+
+    }
+}
+
+
+@media(max-width:517px) {
+
+    .form {
+        margin-left: 87px;
+        width      : 419px;
+    }
+}
+
+
+@media(max-width:481px) {
+    .form {
+        margin-left: 21px;
+        width      : 376px;
+
+    }
+
+    input {
+        width: 244px;
+    }
+
+}
+
+@media(max-width:447px) {
+
+
+    .form {
+
+
+        margin-left: -14px;
+        width      : 377px;
+
+
+
+    }
+}
+
+
+@media (max-width: 434px) {
+    input {
+        width: 204px;
+    }
+
+
+
+}
+
+@media(max-width:432px) {
+    .form {
+        width: 295px;
+
+    }
+
+    input {
+        width: 167px;
+
+    }
+
+
+}
+
+@media (max-width: 414px) {
+    .form {
+        width: 350px;
+    }
+
+    input {
+        width: 177px;
+    }
+
+}
+
+@media(max-width:411px) {
+    .form {
+
+        margin-left: 27px;
+        width      : 340px;
+    }
+
+    .container {
+        width: 370px;
+    }
+
+}
+
+@media(max-width:409px) {
+    .form {
+        width: 256px;
+
+    }
+
+    .container {
+        width: 310px;
+    }
+
+    input {
+        width: 107px;
+
+    }
+}
+
+
+
+@media(max-width:390px) {
+    .form {
+        width: 288px;
+
+    }
+
+    .container {
+        width: 288px;
+    }
+
+    input {
+        width: 93px;
+
+    }
+}
+
+@media(max-width:375px) {
+    .form {
+        margin-left: 66px;
+    }
+
+    h3 {
+        margin-left: 40px;
+
+    }
+
+    span {
+
+        font-size  : 14px;
+        margin-left: 55px;
+    }
+
+    input {
+        width: 129px;
+
+    }
+}
+
+
+
+@media(max-width:363px) {
+
+    form {
+        margin-left: 39px;
+
+        width: 251px;
+
+
+    }
+
+    input {
+        width: 112px;
+    }
+
+}
+
+
+
+
+@media(max-width:360px) {
+
+    .form {
+        margin-left: 56px;
+    }
+}
+
+
+
+
+
+
+@media(max-width:328px) {
+    .form {
+        width      : 211px;
+        margin-left: -10px;
+
+    }
+}
+
+
+
+
+
+@media(max-width:320px) {
+
+    .form {
+        width      : 256px;
+        margin-left: 18px;
+
+
+    }
+
+    span {
+        margin-left: 23px;
+    }
+
+    input {
+        width    : 100px;
+        font-size: 16px;
+    }
+
+
+
+
+}
+
+@media(max-width:280px) {
+
+
+    .add,
+    .delete,
+    .done {
+        font-size: 12px;
+
+    }
+
+
+
+    .form {
+
+        width      : 222px;
+        margin-left: 22px
+    }
+
+    .container {
+        width: 245px;
+
+    }
+
+    h3 {
+        margin-left: -17px;
+
+    }
+
+    span {
+        font-size   : 15px;
+        margin-left : 10px;
+        margin-right: 20px;
+    }
+
+
+}
+
+small {
+    color    : violet;
+    font-size: 12px;
+    position : fixed;
+    bottom   : 5px;
+    left     : 6px;
+}
